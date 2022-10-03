@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Voilà</title>
+   <meta name="keywords" content="Ресторан, кафе, верстка сайта, html, css" />
+   <meta name="description" content="Пример верстки сайта для ресторана."/>
+   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="https://use.fontawesome.com/219ee59df6.js"></script>
+</head>
+<body>
+   <header>
+      <div class="header header__wrap box">
+         <nav>
+            <div class="header__logo">Voilà</div>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu"><p>☰</p></label>
+            <ul class="header__menu">
+               <li>
+                  <div class="header__item">
+                     <a href="" class="header__name">menu</a>
+                     <p class="header__discription">Sit amet constetur adipisicing elit. Fugit perspiciatis.</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="header__item">
+                     <a href="" class="header__name">about</a>
+                     <p class="header__discription">Adipisicing elit. Fugit pipsam ratione numquam</p>
+                  </div>
+               </li>
+                <li>
+                  <div class="header__item">
+                     <a href="" class="header__name">Events</a>
+                     <p class="header__discription">Ratione numquam lorem ipsum dolor sit amet tetur.</p>
+                  </div>
+               </li>
+                <li>
+                  <div class="header__item">
+                     <a href="" class="header__name">Reservations</a>
+                     <p class="header__discription">Voluptates animi cupiditate similique sint.</p>
+                  </div>
+               </li>
+                <li>
+                  <div class="header__item">
+                     <a href="" class="header__name header__name_red">Contact</a>
+                     <p class="header__discription">Quis nemo odio saepe ullam vitae officiis delectus.</p>
+                  </div>
+               </li>
+            </ul>
+         </nav>
+         <div class="header__welcome">
+            <div class="header__title"><h1>Welcome to Voilà</h1></div>
+            <div class="header__subtitle"><h2>We offer mouth watering <span>French cuisine</span></h2></div>
+            <div class="header__buttons">
+               <div class="header__button-left"><a href="">see menu</a></div>
+               <div class="header__button-right"><a href="">Find a table</a></div>
+            </div>
+         </div>
+         <div class="header__scroll">
+            <p>Scroll down for details</p>
+            <i class="fa fa-angle-double-down" ></i>
+         </div>
+      </div>
+   </header>
+   <div class="content">
+      <div class="about" id="about">
+         <div class="about__wrap">
+            <div class="about__top">
+               <div class="about__text">
+                  <div class="about__title title">About Voila Restaurant</div>
+                  <div class="about__discription discription">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis lorem nec enim tempus viverra condimentum eget
+                        dui. Quisque ac ornare orci lacinia facilisis velit <a href="">eget interdum</a>.
+                     </p>
+                     <p>
+                        Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lacinia facilisis velit eget interdum.
+                     </p>
+                  </div>
+                  <div class="about__button button"><a href="">Read more</a></div>
+               </div>
+               <div class="about__picture"><img src="img/about/1.png" alt=""></div>
+            </div>
+            <div class="about__bottom">
+               <div class="about__pic-1"><img src="img/about/2.png" alt=""></div>
+               <div class="about__pic-2"><img src="img/about/3.png" alt=""></div>
+               <div class="about__pic-3"><img src="img/about/4.png" alt=""></div>
+            </div>
+         </div>
+      </div>
+      <div class="tasteful" >
+        <div class="tasteful__wrap box">
+            <div class="tasteful__images">
+               <div class="tasteful__img-top">
+                  <img src="img/tasteful/1.png" alt="">
+                  <img src="img/tasteful/2.png" alt="">
+               </div>
+               <div class="tasteful__img-bottom"><img src="img/tasteful/3.png" alt=""></div>
+            </div>
+            <div class="tasteful__text">
+               <div class="tasteful__title title">Tasteful French Cuisine</div>
+               <div class="tasteful__discription discription">
+                 <p>
+                  Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                  <a href="">consequat ipsum</a>, nec sagittis sem nibh id elit.
+                 </p>
+                  <p>
+                     Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec <a href="">tellus a odio</a>
+                     tincidunt auctor a ornare odio. This duis sed odio sit amet nibh cursus a sit amet mauris. Morbi accumsan ipsum
+                     vulputate.
+                  </p>
+               </div>
+               <div class="tasteful__button button"><a href="">View menu</a></div>
+            </div>
+        </div>
+      </div>
+      <div class="events" >
+         <div class="events__wrap box">
+            <div class="events__reservation" id="reservation">
+               <div class="events__title">Make a Reservation</div>
+               <div class="events__forms">
+                  <form action=""><input type="text" name="name" placeholder="Name*"></form>
+                  <form action=""><input type="date" name="date" placeholder="Date*" ></form>
+                  <form action=""><input type="time" name="time" placeholder="Time*"></form>
+                  <form action=""><input type="text" name="commensals" placeholder="Commensals*"></form>
+                  <button>Find a table</button>
+               </div>
+            </div>
+            <div class="events__events" id="events">
+               <div class="events__title">Upcoming Events</div>
+               <div class="events__items">
+                  <div class="events__item events__item-1 item">
+                     <div class="item__name">Live Music Fridays</div>
+                     <div class="item__times">
+                        <div class="item__date"><img src="img/Date_icon.png" alt="">February 28th</div>
+                        <div class="item__time"><img src="img/Time_Icon.png" alt="">6:00 PM</div>
+                     </div>
+                     <div class="item__discription">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio non mauris.</div>
+                     <div class="item__read"><a href="">Read more...</a></div>
+                  </div>
+                  <div class="events__item events__item-2 item">
+                     <div class="item__name">Louis XII Food Festival</div>
+                     <div class="item__times">
+                        <div class="item__date"><img src="img/Date_icon.png" alt="">March 12th</div>
+                        <div class="item__time"><img src="img/Time_Icon.png" alt="">12:00 PM</div>
+                     </div>
+                     <div class="item__discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque, odit optio veritatis.</div>
+                     <div class="item__read"><a href="">Read more...</a></div>
+                  </div>
+                  <div class="events__item events__item-3 item">
+                     <div class="item__name">Magic show with Karim Diaw</div>
+                     <div class="item__times">
+                        <div class="item__date"><img src="img/Date_icon.png" alt="">March 22nd</div>
+                        <div class="item__time"><img src="img/Time_Icon.png" alt="">8:00 PM</div>
+                     </div>
+                     <div class="item__discription">Vel aliquid porro repellendus neque impedit assumenda quas a libero.</div>
+                     <div class="item__read"><a href="">Read more...</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="post">
+         <div class="post__wrap">
+            <div class="post__left">
+               <div class="post__title title">Book a Table</div>
+               <div class="post__discriptions">Like our restaurant concept? Book a table and taste our dishes on first hand.</div>
+               <div class="post__button button"><a href="">Book a table</a></div>
+            </div>
+            <div class="post__or">
+               <div class="post__line"></div>
+               <p>Or</p>
+               <div class="post__line"></div>
+            </div>
+            <div class="post__right">
+               <div class="post__title title">Tell to Your Friends</div>
+               <div class="post__discriptions">Some of your friends may like to visit if you recommend us. They’ll trust your taste!</div>
+               <div class="post__cos-icons">
+                  <div class="post__icon post__icon-1"><a href=""><i class="fa fa-facebook-official"></i>Share</a></div>
+                  <div class="post__icon post__icon-2"><a href=""><i class="fa fa-twitter"></i>Tweet</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="footer__wrap box">
+         <div class="footer__logo">Voilà</div>
+         <nav>
+            <div class="footer__name">navigation</div>
+            <ul>
+               <li><a href="">Menu</a></li>
+               <li><a href="">about</a></li>
+               <li><a href="">events</a></li>
+               <li><a href="">reservations</a></li>
+               <li><a href="">contact</a></li>
+            </ul>
+         </nav>
+         <div class="footer__right">
+            <div class="footer__visit">
+               <div class="footer__name">Visit us</div>
+               <div class="footer__discription">Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh. <a href="">View on the map.</a></div>
+            </div>
+            <div class="footer__connect">
+               <div class="footer__name">Connect with us</div>
+               <div class="footer__soc">
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                  <a href=""><i class="fa fa-tripadvisor"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>
