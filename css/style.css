@@ -1454,13 +1454,17 @@ footer {
 }
 @media (max-width: 480px) {
   body {
-    max-width: 480px;
+    max-width: 100vw;
     margin: 0 auto;
   }
 
   .box {
-    max-width: 450px;
+    max-width: 93.75vw;
     margin: 0 auto;
+  }
+
+  header {
+    height: 60.84vw;
   }
 
   label {
@@ -1505,43 +1509,60 @@ footer {
     width: 100%;
   }
   .about__wrap {
-    width: 450px;
+    width: 93.75vw;
     margin: 0 auto;
   }
   .about__top {
     margin-bottom: 18px;
   }
   .about__text {
-    width: 450px;
-    height: 270px;
+    width: 100%;
+    height: auto;
+    padding: 13px 0px 40px;
   }
   .about__title {
     margin-bottom: 18px;
   }
   .about__button {
     position: absolute;
-    left: 68%;
-    bottom: 20px;
+    left: 64%;
+    bottom: 0;
   }
 
   .tasteful {
     padding: 50px 0;
   }
   .tasteful__wrap {
-    width: 450px;
+    width: 93.75vw;
   }
   .tasteful__images {
-    width: 450px;
+    width: 93.75vw;
+  }
+  .tasteful__img-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0;
+    height: 31.25vw;
+    width: 67%;
+  }
+  .tasteful__img-top img {
+    margin: 0 0;
+    width: 48%;
+    height: 100%;
+    object-fit: cover;
   }
   .tasteful__img-bottom {
-    width: 150px;
+    width: 31.25vw;
+    height: 31.25vw;
     margin-left: 12px;
   }
   .tasteful__text {
     order: 1;
-    width: 450px;
-    height: 310px;
-    padding: 0 0 30px;
+    width: 93.75vw;
+    height: auto;
+    margin-right: 0;
+    position: relative;
+    padding: 0 0 40px;
     margin: 0 auto;
   }
   .tasteful__title {
@@ -1554,15 +1575,16 @@ footer {
     margin-bottom: 17px;
   }
   .tasteful__button {
-    right: -15px;
-    bottom: 35px;
+    right: 0;
+    margin: 0;
+    bottom: 3%;
   }
 
   .events {
     padding: 50px 0;
   }
   .events__wrap {
-    width: 450px;
+    width: 93.75vw;
   }
   .events__reservation {
     margin-bottom: 50px;
@@ -1581,7 +1603,7 @@ footer {
     padding: 18px;
   }
   .post__wrap {
-    width: 450px;
+    width: 93.75vw;
   }
 
   .footer__wrap {
@@ -1624,12 +1646,11 @@ footer {
 }
 @media (max-width: 320px) {
   body {
-    max-width: 320px;
     margin: 0 auto;
   }
 
   .box {
-    max-width: 290px;
+    max-width: 90.6vw;
     margin: 0 auto;
   }
 
@@ -1695,14 +1716,14 @@ footer {
     width: 100%;
   }
   .about__wrap {
-    width: 300px;
+    width: 93.75vw;
   }
   .about__top {
     margin-bottom: 16px;
   }
   .about__text {
-    width: 300px;
-    height: 280px;
+    width: 93.75vw;
+    height: auto;
   }
   .about__title {
     margin-bottom: 20px;
@@ -1717,7 +1738,6 @@ footer {
   .about__button {
     position: absolute;
     left: 52%;
-    bottom: 15px;
   }
   .about__bottom {
     display: flex;
@@ -1731,29 +1751,29 @@ footer {
   }
   .about__pic-1 {
     position: relative;
-    width: 300px;
-    height: 270px;
+    width: 93.75vw;
+    height: 84.37vw;
     margin-bottom: 10px;
   }
   .about__pic-2 {
-    width: 300px;
-    height: 270px;
+    width: 93.75vw;
+    height: 84.37vw;
     margin-bottom: 10px;
   }
   .about__pic-3 {
-    width: 300px;
-    height: 270px;
+    width: 93.75vw;
+    height: 84.37vw;
     margin-bottom: 0;
     position: relative;
   }
   .about__pic-3::after {
     content: "";
     background-size: contain;
-    width: 300px;
-    height: 270px;
+    width: 93.75vw;
+    height: 84.37vw;
     background: url("../img/about/1.png") no-repeat center/cover;
     position: absolute;
-    bottom: -280px;
+    bottom: -87.5vw;
     right: 1px;
     z-index: 36;
   }
@@ -1768,7 +1788,7 @@ footer {
   }
   .tasteful__wrap {
     padding: 0;
-    width: 300px;
+    width: 93.75vw;
     margin: 0 auto;
   }
   .tasteful__images {
@@ -1780,7 +1800,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 0 0 10px;
-    height: 150px;
+    height: 46.87vw;
     width: 100%;
   }
   .tasteful__img-top img {
@@ -1791,15 +1811,13 @@ footer {
   }
   .tasteful__img-bottom {
     width: 100%;
-    height: 150px;
+    height: 46.87vw;
     margin-left: 0;
   }
   .tasteful__text {
     order: 1;
     width: 100%;
-    height: 340px;
-    padding: 0 0 30px;
-    margin: 0 auto;
+    height: auto;
   }
   .tasteful__title {
     margin-bottom: 20px;
@@ -1807,15 +1825,11 @@ footer {
   .tasteful__discription {
     margin: 0;
   }
-  .tasteful__button {
-    bottom: 30px;
-  }
-
   .events {
     padding: 40px 0;
   }
   .events__wrap {
-    width: 300px;
+    width: 93.75vw;
   }
   .events__reservation {
     margin-bottom: 40px;
@@ -1872,7 +1886,7 @@ footer {
   }
   .item__discription {
     font-size: 13px;
-    width: 230px;
+    width: 71.87vw;
     margin-left: -80px;
   }
   .item__read a {
@@ -1881,7 +1895,7 @@ footer {
   }
 
   .post__wrap {
-    width: 300px;
+    width: 93.75vw;
   }
   .post__left {
     width: 100%;
