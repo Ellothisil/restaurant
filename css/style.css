@@ -720,6 +720,7 @@ footer {
     padding: 5px 20px 5px 13px;
   }
   .about__button {
+    right: 20px;
     bottom: 110px;
   }
   .about__picture {
@@ -881,9 +882,9 @@ footer {
   }
   .about__text {
     width: 49%;
-    height: 100%;
+    height: auto;
     padding: 13px 0px 5px;
-    position: static;
+    position: relative;
   }
   .about__title {
     margin-bottom: 25px;
@@ -897,8 +898,8 @@ footer {
   }
   .about__button {
     position: absolute;
-    left: 25%;
-    bottom: 20px;
+    right: 0;
+    bottom: 0;
   }
   .about__picture {
     width: 50%;
@@ -1191,7 +1192,7 @@ footer {
   }
   .about__button {
     position: absolute;
-    left: 70%;
+    right: 0;
     bottom: 20px;
   }
   .about__picture {
@@ -1464,7 +1465,7 @@ footer {
   }
 
   header {
-    height: 60.84vw;
+    height: 84vw;
   }
 
   label {
@@ -1487,7 +1488,8 @@ footer {
   }
   .header__subtitle {
     font-size: 18px;
-    margin: 10px 0 35px;
+    text-align: center;
+    margin: 10px 0 25px;
   }
   .header__subtitle span {
     height: 18px;
@@ -1525,7 +1527,7 @@ footer {
   }
   .about__button {
     position: absolute;
-    left: 64%;
+    right: 0;
     bottom: 0;
   }
 
@@ -1562,7 +1564,7 @@ footer {
     height: auto;
     margin-right: 0;
     position: relative;
-    padding: 0 0 40px;
+    padding: 0 0 50px;
     margin: 0 auto;
   }
   .tasteful__title {
@@ -1577,7 +1579,7 @@ footer {
   .tasteful__button {
     right: 0;
     margin: 0;
-    bottom: 3%;
+    bottom: 4%;
   }
 
   .events {
@@ -1588,7 +1590,7 @@ footer {
   }
   .events__reservation {
     margin-bottom: 50px;
-    padding: 0 20px 25px;
+    padding: 0 10px 25px;
   }
   .events__events {
     padding: 0 20px 25px;
@@ -1597,7 +1599,7 @@ footer {
     font-size: 18px;
   }
   .events__forms {
-    padding: 35px 40px;
+    padding: 35px 20px;
   }
   .events__forms input {
     padding: 18px;
@@ -1607,37 +1609,45 @@ footer {
   }
 
   .footer__wrap {
-    padding: 50px 5px 36px;
+    padding: 40px 5px 36px;
+    justify-content: center;
+    flex-direction: column;
   }
-  .footer__wrap li {
-    margin-bottom: 12px;
+  .footer__wrap ul {
+    display: flex;
+    justify-content: space-between;
   }
   .footer__wrap a {
-    font-size: 10px;
+    font-size: 11px;
   }
   .footer__logo {
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
+    margin-left: -4px;
   }
   .footer__name {
     font-size: 14px;
-    margin-bottom: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
   }
   .footer__right {
-    width: 40%;
+    width: 100%;
   }
   .footer__discription {
     font-size: 12px;
     line-height: 1.4;
+    text-align: center;
   }
   .footer__discription a {
     font-size: 12px;
     white-space: nowrap;
   }
   .footer__connect {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .footer__soc {
     gap: 14px;
+    justify-content: center;
   }
   .footer__soc a {
     padding: 3px 5px;
@@ -1737,7 +1747,7 @@ footer {
   }
   .about__button {
     position: absolute;
-    left: 52%;
+    right: 0;
   }
   .about__bottom {
     display: flex;
